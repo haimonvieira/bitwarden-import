@@ -10,7 +10,7 @@ public class Main {
 
     public void exibirMenu() {
 
-        String path = "/Users/haimonvieira/Downloads/bitwarden_export_20240613102308.json.txt";
+        String path = "YOUR_LOCAL_FILE_PATH";
 
         try {
 
