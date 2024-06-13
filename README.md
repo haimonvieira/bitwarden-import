@@ -12,6 +12,10 @@ Example:
 
 When concluded, the file will are in the directory of the code
 
+<img src="https://github.com/haimonvieira/bitwarden-import/blob/main/IMG_0010.png" alt="Print de tela" width="400" height="800" />
+
+
+
 # Utils
 - Intellij
 - Spring Boot (but not necessary)
