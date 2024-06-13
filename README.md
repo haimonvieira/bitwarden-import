@@ -12,6 +12,7 @@ Example:
 
 When concluded, the file will are in the directory of the code
 
+<img src="https://github.com/haimonvieira/bitwarden-import/blob/main/IMG_0009.png" alt="Descrição da imagem" width="400" height="800" />
 
 # Utils
 - Intellij
