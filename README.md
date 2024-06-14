@@ -1,7 +1,5 @@
 # Bitwarden import: Bitwarden to Bitwarden Authenticator
 
-While the Bitwarden do not reveal a new update to this feature, i make this for me and to the community :)
-
 Open the Main class and insert your local file path in the variable `path`
 
 `path = "YOUR_LOCAL_FILE_PATH"`
