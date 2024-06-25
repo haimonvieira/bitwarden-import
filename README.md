@@ -16,5 +16,5 @@ When concluded, the file will are in the directory of the code
 
 # Utils
 - Intellij
-- Spring Boot (but not necessary)
+- Spring Boot
 - Jackson
