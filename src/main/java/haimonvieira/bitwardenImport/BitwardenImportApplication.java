@@ -1,11 +1,9 @@
-package br.com.alura.bitwardenImport;
+package haimonvieira.bitwardenImport;
 
-import br.com.alura.bitwardenImport.main.Main;
+import haimonvieira.bitwardenImport.main.Main;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.Scanner;
 
 @SpringBootApplication
 public class BitwardenImportApplication implements CommandLineRunner {
