@@ -12,9 +12,8 @@ public class Bitwarden {
     public void showMenu(){
 
         JsonFile jsonFile = new JsonFile();
-        jsonFile.setFileChooser();
-
-        JFileChooser fileChooser = new JFileChooser();
+        JFileChooser fileChooser;
+        fileChooser = jsonFile.setFile();
 
         int opcao = fileChooser.showOpenDialog(null);
 
