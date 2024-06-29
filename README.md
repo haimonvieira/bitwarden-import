@@ -1,9 +1,9 @@
 # Bitwarden import: Bitwarden to Bitwarden Authenticator
 This is a project that only for academic purposes.
 
-NEW
-
-Now you can select your file! :D
+# NEW
+- Now you can select your file;
+- Basic user interface.
 
 Example:
 
