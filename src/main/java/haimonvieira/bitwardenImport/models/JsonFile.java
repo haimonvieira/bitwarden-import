@@ -5,9 +5,10 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 public class JsonFile {
 
+    private final JFileChooser fileChooser = new JFileChooser();
+
     public JFileChooser setFile(){
 
-        JFileChooser fileChooser = new JFileChooser();
         fileChooser.setDialogTitle("Choose the JSON file");
         fileChooser
                 .setFileFilter(new FileNameExtensionFilter("JSON files", "json"));

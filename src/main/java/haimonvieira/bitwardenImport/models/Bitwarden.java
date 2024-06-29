@@ -7,13 +7,13 @@ import java.nio.file.Paths;
 
 public class Bitwarden {
 
-    private ConverterData converterData = new ConverterData();
+    private final ConverterData converterData = new ConverterData();
+    private final JsonFile jsonFile = new JsonFile();
 
     public void showMenu(){
 
-        JsonFile jsonFile = new JsonFile();
-        JFileChooser fileChooser;
-        fileChooser = jsonFile.setFile();
+
+        JFileChooser fileChooser = jsonFile.setFile();
 
         int opcao = fileChooser.showOpenDialog(null);
 
