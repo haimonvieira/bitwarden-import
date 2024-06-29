@@ -1,4 +1,4 @@
-package haimonvieira.bitwardenImport.dto;
+package haimonvieira.bitwardenImport.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

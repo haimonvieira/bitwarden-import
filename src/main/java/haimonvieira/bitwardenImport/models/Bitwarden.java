@@ -1,6 +1,5 @@
 package haimonvieira.bitwardenImport.models;
 
-import haimonvieira.bitwardenImport.dto.ImportationData;
 import haimonvieira.bitwardenImport.service.ConverterData;
 import javax.swing.*;
 import java.io.File;

@@ -1,6 +1,6 @@
 package haimonvieira.bitwardenImport.service;
 
-import haimonvieira.bitwardenImport.dto.ImportationData;
+import haimonvieira.bitwardenImport.models.ImportationData;
 import java.io.File;
 
 public interface IConverterData {
