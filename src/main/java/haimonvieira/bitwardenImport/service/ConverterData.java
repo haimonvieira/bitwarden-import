@@ -1,6 +1,6 @@
 package haimonvieira.bitwardenImport.service;
 
-import haimonvieira.bitwardenImport.models.ImportationData;
+import haimonvieira.bitwardenImport.dto.ImportationData;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;

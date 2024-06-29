@@ -1,8 +1,8 @@
 package haimonvieira.bitwardenImport.models;
 
+import haimonvieira.bitwardenImport.dto.ImportationData;
 import haimonvieira.bitwardenImport.service.ConverterData;
 import javax.swing.*;
-import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.File;
 import java.nio.file.Paths;
 
@@ -12,12 +12,12 @@ public class Bitwarden {
 
     public void showMenu(){
 
+        JsonFile jsonFile = new JsonFile();
+        jsonFile.setFileChooser();
+
         JFileChooser fileChooser = new JFileChooser();
-        fileChooser.setDialogTitle("Choose the JSON file");
-        fileChooser.setFileFilter(new FileNameExtensionFilter("JSON files", "json"));
 
         int opcao = fileChooser.showOpenDialog(null);
-        ///Users/haimonvieira/Downloads/bitwarden_export_20240628184844.json
 
         if(opcao == JFileChooser.APPROVE_OPTION) {
 
