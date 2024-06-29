@@ -5,7 +5,7 @@ This is a project that only for academic purposes.
 - Now you can select your file;
 - Basic user interface.
 
-Example:
+# Images
 
 <img src="https://github.com/haimonvieira/bitwarden-import/blob/main/IMG_0010.png" alt="Print de tela" width="400" height="800" />
 
