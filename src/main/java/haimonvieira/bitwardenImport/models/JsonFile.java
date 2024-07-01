@@ -9,9 +9,10 @@ public class JsonFile {
 
     public JFileChooser setFile(){
 
+        FileNameExtensionFilter fileExtension = new FileNameExtensionFilter("JSON files", "json");
+
         fileChooser.setDialogTitle("Choose the JSON file");
-        fileChooser
-                .setFileFilter(new FileNameExtensionFilter("JSON files", "json"));
+        fileChooser.setFileFilter(fileExtension);
 
         return fileChooser;
     }

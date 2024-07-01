@@ -12,9 +12,7 @@ public class Bitwarden {
 
     public void showMenu(){
 
-
         JFileChooser fileChooser = jsonFile.setFile();
-
         int opcao = fileChooser.showOpenDialog(null);
 
         if(opcao == JFileChooser.APPROVE_OPTION) {
@@ -23,18 +21,20 @@ public class Bitwarden {
 
             try {
 
+                //Import data from JSON
                 ImportationData importationData = converterData.getData(path, ImportationData.class);
 
                 //Remove the fields that have totp or login null
                 importationData.items()
                         .removeIf(d -> d.login() == null || d.login().totp() == null);
 
-                //Getting the username, download folder and creating the file
+                //Getting the username, download folder and getting the path for the file 'bitwardenAuthenticator.json'
                 String username = System.getProperty("user.home");
                 String downloadFolder = Paths.get(username, "Downloads").toString();
                 String download = Paths.get(downloadFolder,
                         "bitwardenAuthenticator.json").toString();
 
+                //Creating the file 'bitwardenAuthenticator.json'
                 File file = new File(download);
                 converterData.writeData(file, importationData);
 
@@ -43,7 +43,7 @@ public class Bitwarden {
                                 download + "'");
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null,
-                        "Error on create JSON file: " + e.getMessage());
+                        "Error on create JSON file: The file was not selected");
             }
 
         }
