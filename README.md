@@ -7,7 +7,7 @@ This project is only for academic purposes.
 
 # Images
 
-<img src="https://github.com/haimonvieira/bitwarden-import/blob/main/IMG_0010.png" alt="Print de tela" width="400" height="800" />
+<img src="https://github.com/haimonvieira/bitwarden-import/blob/main/IMG_0010.png" alt="Print de tela" width="200" height="400" />
 
 
 # Utils
