@@ -13,9 +13,9 @@ public class Bitwarden {
     public void showMenu(){
 
         JFileChooser fileChooser = jsonFile.setFile();
-        int opcao = fileChooser.showOpenDialog(null);
+        int option = fileChooser.showOpenDialog(null);
 
-        if(opcao == JFileChooser.APPROVE_OPTION) {
+        if(option == JFileChooser.APPROVE_OPTION) {
 
             String path = fileChooser.getSelectedFile().getAbsolutePath();
 
@@ -40,7 +40,7 @@ public class Bitwarden {
 
                 JOptionPane.showMessageDialog(null,
                         "File '" + file.getName() + "' created successfully at '" +
-                                download + "'");
+                                download + "'", "JSON file created", JOptionPane.INFORMATION_MESSAGE);
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null,
                         "Error on create JSON file: The file was not selected");
