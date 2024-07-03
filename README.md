@@ -1,5 +1,5 @@
 # Bitwarden import: Bitwarden to Bitwarden Authenticator
-This project is only for academic purposes.
+This project is only for personal purposes.
 
 # NEWS
 - Now you can select your file;
